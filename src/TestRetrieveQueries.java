@@ -1,5 +1,7 @@
 // UC 13: Ensure Retrieve Queries Work with New Table Structure
 public class TestRetrieveQueries {
+
+
     public static void main(String[] args) {
         // Test UC 6
         RetrieveByCityOrState.main(null);
