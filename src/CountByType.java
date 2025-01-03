@@ -17,17 +17,3 @@ public class CountByType {
     }
 }
 
-// UC 12: Draw the ER Diagram (Conceptual - Not Code)
-/*
-Entities:
-1. Contacts
-   - Attributes: contact_id, first_name, last_name, address, city, state, zip, phone_number, email, address_book_name, type
-
-Relationships:
-- Contacts are grouped by address_book_name and type.
-
-Normalization:
-- Ensure no redundant data (e.g., separate address into street, city, state, zip if needed).
-- Maintain atomic attributes (e.g., phone_number and email).
-*/
-
